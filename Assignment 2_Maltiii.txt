@@ -1,0 +1,51 @@
+Assignment-2:
+
+1)Name Age Function:
+
+ def fun(name,age):
+     print(name,age)
+ n=input()
+ a=int(input())
+ fun(n,a)
+
+
+2)Reverse String 39:
+ 
+ def rev(s):
+     print(s[::-1])
+ x=input()
+ rev(x)
+
+3)multiplication table:
+
+def mul(num):
+    i=1
+    while i<=10:  
+     num = num * 1  
+     print(num*i)  
+     i += 1  
+x=int(input())
+mul(x)
+
+4)VBIT Employee:
+
+def fun(sal,years):
+ if years>5:
+    bonus=(sal*5)//100
+    print("Bonus is {}".format(bonus))
+ else:
+    print("No Bonus")
+x=int(input())
+y=int(input())
+fun(x,y)
+
+5)Square Rectangle:
+
+def fun(l,b):
+  if l==b:
+    print("Yes")
+  else:
+    print("No")
+x=int(input())
+y=int(input())
+fun(x,y)
