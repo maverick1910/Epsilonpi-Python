@@ -1,0 +1,49 @@
+program 1:
+Square Rectangle
+
+code:
+len = int(input())
+brd = int(input())
+if len == brd :
+ print('Yes')
+else :
+ print('No')
+
+program 2:
+VBIT Employee
+
+code:
+sal = int(input())
+ser = int(input())
+if ser > 5:
+  bonus = (5/100)*sal
+  print(f'Bonus is {int(bonus)}')
+elif ser <= 5:
+  print('No Bonus')
+
+program 3:
+multiplication table
+
+code:
+n = int(input())
+for i in range(1,11):
+ print(n*i)
+
+program 4:
+Reverse String 39
+
+code:
+s = input()
+r = s[::-1]
+print(r)
+
+program 5:
+Name Age Function
+
+code:
+def accept(name,age):
+ print(f'{name} {age}')
+
+n = input()
+a = int(input())
+accept(n,a)
