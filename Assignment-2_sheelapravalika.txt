@@ -1,0 +1,59 @@
+1)VBIT Employee
+
+
+def bonus(a,b):
+    if b>5:
+        print("Bonus is {}".format(int((5/100)*a)))
+    else:
+        print("No Bonus")
+bonus(a=int(input()),b=int(input()))
+
+
+
+2)Square Rectangle
+
+
+
+def square(length,breadth):
+    if(length==breadth):
+        print("Yes")
+    else:
+        print("No")
+square(length=int(input()),breadth=int(input()))
+
+
+
+3)Name Age Function
+
+
+def name_age(name,age):
+    print(name,age)
+name_age(name=input(),age=int(input()))
+
+
+4)multiplication table
+
+
+
+
+a=int(input())
+i=1
+while(i<11):
+     print(i*a)
+     i += 1
+
+
+
+5)Reverse String 39
+
+
+
+
+def reverse_string(str):  
+    str1 = ""   
+    for i in str:  
+        str1 = i + str1  
+    return str1  
+     
+str = input()
+print(reverse_string(str))
